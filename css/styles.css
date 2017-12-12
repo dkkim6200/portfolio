@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=BenchNine');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #F5F5DC;
+	color: #67727A;
+	font-family: "BenchNine", sans-serif;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.full-screen {
+	height: 100vh;
+	background-image: url("/img/programming.jpg?");
+}
+
+.header-box {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 40%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(26, 156, 208, 0.5);
+	display: flex;
+	flex-direction: column;
+}
+
+.header-wrapper {
+	margin: auto;
+	max-width: 600px;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.summary {
+	margin: auto;
+	width: 66.666%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.profile-photo {
+	margin: auto;
+	width: 33.333%;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 0 0 22px 2px rgba(0, 0, 0, 0.75);
+}
+
+.name {
+	font-size: 4.8em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.bio {
+	font-size: 1.5em;
+	font-weight: lighter;
+	color: #BBBBBB;
+	line-height: 115%;
+}
+
+.icon-links {
+	text-align: center;
+	font-size: 2em;
+	padding: 10px 0;
+}
+
+.icon-links a {
+	color: #FFFFFF;
+	padding: 0 4px;
+}
+
+.portfolio {
+	padding-top: 5%;
+	margin: 0 20%;
+}
+
+.portfolio>h1 {
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.selection-bar {
+	margin: auto;
+	padding-bottom: 30px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.project-cell {
+	margin: 8px 8px;
+	width: calc(33.33333333% - 16px);
+}
+
+.project-cell>figcaption {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.project-cell>img {
+	width: 100%;
+	height: 12vw;
+	border-radius: 10%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.contact {
+	text-align: center;
+	font-size: 3em;
+	padding: 100px 0;
+	background-color: rgb(57, 62, 65);
+	width: 100%;
+	display: inline-block;
+}
+
+.email {
+	font-size: 0.8em;
+	display: inline-block;
+	margin: 30px 0;
+	padding: 10px 50px 10px 50px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border-bottom: 3px solid #5D5D5B;
+	color: #5D5D5B;
+	text-decoration: none;
+}
