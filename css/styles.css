@@ -81,8 +81,8 @@ img {
 	padding: 10px 0;
 }
 
-.icon-links a {
-	color: #FFFFFF;
+.icon-links>a {
+	color: #fff;
 	padding: 0 4px;
 }
 
@@ -178,7 +178,8 @@ img {
 	display: none;
 }
 
-.navigation-wrapper a:link, a:visited {
+.navigation-wrapper>a:link,
+.navigation-wrapper>a:visited {
 	text-decoration: none;
 	font-weight: 600;
 	color: #000;
