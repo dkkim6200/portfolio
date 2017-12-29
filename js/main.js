@@ -68,10 +68,16 @@ $(document).ready(function() {
 
 	$('.close').on('click', function(event) {
 		modal.style.display = "none";
+		$('.project-title').empty();
+		$('.project-skills').empty();
+		$('.project-description').empty();
 	});
 
 	$('.done').on('click', function(event) {
 		modal.style.display = "none";
+		$('.project-title').empty();
+		$('.project-skills').empty();
+		$('.project-description').empty();
 	});
 
 	for (var i = 0; i < projects.length; i++) {
