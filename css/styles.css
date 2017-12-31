@@ -20,6 +20,10 @@ img {
 	max-height: 100%;
 }
 
+iframe {
+	width: 100%;
+}
+
 .full-screen {
 	height: 100vh;
 	background-image: url("/img/programming.jpg?");
@@ -39,7 +43,7 @@ img {
 }
 
 .header-wrapper {
-	margin: auto;
+	margin: 0 auto;
 	max-width: 600px;
 	padding: 30px;
 	display: flex;
@@ -47,9 +51,8 @@ img {
 }
 
 .summary {
-	margin: auto;
+	margin: 0 auto;
 	width: 66.666%;
-	height: auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -57,13 +60,12 @@ img {
 .profile-photo {
 	margin: auto;
 	width: 33.333%;
-	height: auto;
 	border-radius: 50%;
 	box-shadow: 0 0 22px 2px rgba(0, 0, 0, 0.75);
 }
 
 .name {
-	font-size: 4.8em;
+	font-size: 70px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
@@ -150,7 +152,7 @@ img {
 	vertical-align: middle;
 	margin: 10px auto;
 	padding: 20px 50px;
-	border: 1px solid #888;
+	border: 20px solid rgba(0, 0, 0, 0.7);
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
@@ -233,4 +235,56 @@ img {
 	border-bottom: 3px solid #5D5D5B;
 	color: #5D5D5B;
 	text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+	.portfolio {
+		margin: 0 5%;
+	}
+
+	.project-cell {
+		width: calc(50% - 16px);
+	}
+
+	.project-cell>img {
+		height: 30vw;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header-wrapper {
+		display: flex;
+		flex-basis: 100%;
+		/*flex-direction: column;*/
+		flex-wrap: wrap-reverse;
+		justify-content: center;
+	}
+
+	.summary {
+		width: 100%;
+		text-align: center;
+	}
+
+	.profile-photo {
+		width: 30vw;
+		height: 30vw;
+	}
+
+	.project-description {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.portfolio {
+		margin: 0 10%;
+	}
+
+	.project-cell {
+		width: 100%;
+	}
+
+	.project-cell>img {
+		height: 60vw;
+	}
 }
