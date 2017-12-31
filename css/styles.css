@@ -133,7 +133,7 @@ iframe {
 .project-modal {
 	display: none;
 	position: fixed; /* Stay in place */
-	z-index: 0; /* Sit on top */
+	z-index: 10000; /* Sit on top */
 	margin: 0 auto;
 	margin-bottom: 10px;
 	top: 0;
@@ -152,7 +152,7 @@ iframe {
 	vertical-align: middle;
 	margin: 10px auto;
 	padding: 20px 50px;
-	border: 20px solid rgba(0, 0, 0, 0.7);
+	/*border: 20px none rgba(0, 0, 0, 0.7);*/
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
