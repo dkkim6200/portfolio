@@ -67,6 +67,7 @@ $(document).ready(function() {
 	var modal = document.getElementsByClassName("project-modal")[0];
 
 	$('.close').on('click', function(event) {
+		$('body').removeClass('no-scroll')
 		modal.style.display = "none";
 		$('.project-title').empty();
 		$('.project-skills').empty();
@@ -74,6 +75,7 @@ $(document).ready(function() {
 	});
 
 	$('.done').on('click', function(event) {
+		$('body').removeClass('no-scroll')
 		modal.style.display = "none";
 		$('.project-title').empty();
 		$('.project-skills').empty();
@@ -95,7 +97,11 @@ $(document).ready(function() {
 		e.preventDefault();
 		document.location.href = '#project';
 		modal.style.display = "inline-block";
-		
+
+		// Disable scroll for the background
+		$('body').addClass('no-scroll')
+
+		// Get the project from the project index of the clicked cell.
 		projIndex = $(e.currentTarget).attr('project');
 		curProject = projects[projIndex];
 

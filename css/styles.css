@@ -108,6 +108,10 @@ iframe {
 	flex-wrap: wrap;
 }
 
+.no-scroll {
+	overflow: hidden;
+}
+
 .project-cell {
 	margin: 8px 8px;
 	width: calc(33.33333333% - 16px);
@@ -153,6 +157,7 @@ iframe {
 	margin: 10px auto;
 	padding: 20px 50px;
 	/*border: 20px none rgba(0, 0, 0, 0.7);*/
+	overflow-y: scroll;
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
