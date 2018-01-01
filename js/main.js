@@ -11,8 +11,8 @@ var projects = [{
 		"id": 1,
 		"title": "Nano Balls",
 		"folder": "nano_balls",
-		"skills": ["Unity3D", "C#"],
-		"description": '<iframe width="560" height="315" src="https://www.youtube.com/embed/E7-Xl_8F__A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
+		"skills": ["Unity", "C#"],
+		"description": 'Developed a puzzle rolling ball game using Unity. It has 20 levels, divided into 2 themes (sky and ground).<br><br>This game was inspired from Unity\'s "Roll-a-ball tutorial" (<a href="https://unity3d.com/learn/tutorials/s/roll-ball-tutorial">https://unity3d.com/learn/tutorials/s/roll-ball-tutorial</a>). It is currently being sold on the Google Play Store (<a href="goo.gl/hC1VKn">goo.gl/hC1VKn</a>). Nano Balls is not on Apple App Store anymore.<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/E7-Xl_8F__A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>',
 		"thumbnail": "nano_balls_1.png",
 		"images": ["nano_balls_1.png", "nano_balls_2.png", "nano_balls_3.png", "nano_balls_4.png", "nano_balls_5.png", "nano_balls_6.png"]
 	},
@@ -29,7 +29,7 @@ var projects = [{
 		"id": 3,
 		"title": "Spinning Coin",
 		"folder": "spinning_coin",
-		"skills": ["Unity3D", "C#", "Blender"],
+		"skills": ["Unity", "C#", "Blender"],
 		"description": '<iframe width="560" height="315" src="https://www.youtube.com/embed/amC7tpIgLnA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><br><br>',
 		"thumbnail": "spinning_coin_1.png",
 		"images": ["spinning_coin_1.png", "spinning_coin_2.png"]
@@ -99,7 +99,7 @@ $(document).ready(function() {
 	  }, false);
 
 	}, false);
-	
+
 	var modal = document.getElementsByClassName("project-modal")[0];
 
 	$('.close').on('click', function(event) {
