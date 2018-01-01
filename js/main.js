@@ -61,6 +61,24 @@ var projects = [{
 		"thumbnail": "vector_world_1.png",
 		"images": ["vector_world_1.png", "vector_world_2.png"]
 	},
+	{
+		"id": 7,
+		"title": "HeadCheck Health<br>Automation & Testing",
+		"folder": "headcheck",
+		"skills": ["Java", "Selenium WebDeiver", "Node.js", "Shell Script", "JUnit"],
+		"description": "",
+		"thumbnail": "headcheck_1.png",
+		"images": ["headcheck_1.png"]
+	},
+	{
+		"id": 8,
+		"title": "Galaga on iOS",
+		"folder": "galaga",
+		"skills": ["C++", "Objective-C", "Blender"],
+		"description": '<iframe width="560" height="315" src="https://www.youtube.com/embed/QBm9mj1MC3Y" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
+		"thumbnail": "galaga_1.png",
+		"images": ["galaga_1.png", "galaga_2.png"]
+	}
 ]
 
 $(document).ready(function() {
