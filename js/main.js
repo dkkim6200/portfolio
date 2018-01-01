@@ -38,7 +38,7 @@ var projects = [{
 		"id": 4,
 		"title": "Sympo",
 		"folder": "sympo",
-		"skills": ["Objective-C", "Swift 3", "Apache Tomcat", "Java Servlet"],
+		"skills": ["Objective-C", "Swift 2", "Apache Tomcat", "Java Servlet"],
 		"description": "",
 		"thumbnail": "sympo_1.png",
 		"images": ["sympo_1.png"]
