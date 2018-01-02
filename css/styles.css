@@ -24,6 +24,10 @@ iframe {
 	width: 100%;
 }
 
+ul {
+	padding: 0 10px 0 40px;
+}
+
 .full-screen {
 	height: 100vh;
 	background-image: url("/img/programming.jpg?");
