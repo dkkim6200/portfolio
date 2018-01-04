@@ -90,42 +90,90 @@ var projects = [{
 	}
 ]
 
+// Modal is a global variable.
+var modal;
+
+// Source: https://stackoverflow.com/questions/19491336/get-url-parameter-jquery-or-how-to-get-query-string-values-in-js
+$.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return decodeURI(results[1]) || 0;
+    }
+}
+
+$.openModal = function(projectId) {
+	modal.style.display = "inline-block";
+	curProject = projects[projectId];
+
+	// Disable scroll for the background
+	$('body').addClass('no-scroll')
+
+	// Title
+	$('.project-title').empty();
+	$('.project-title').append(curProject.title);
+
+
+	// Slideshow
+	$('.project-slideshow').remove();
+	$('<div></div>').addClass('project-slideshow').appendTo('.project-slideshow-placeholder');
+
+	toAppend = '';
+	for (var i = 0; i < curProject.images.length; i++) {
+		toAppend += '<img class="project-image" src="/img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?>';
+	}
+
+	$('.project-slideshow').append(toAppend);
+
+	// If there are multiple images, create a slideshow
+	if (curProject.images.length > 1) {
+		$('.project-slideshow').slidesjs({
+			width: $('.project-image').get(0).naturalWidth,
+			height: $('.project-image').get(0).naturalHeight,
+
+	        navigation: {
+	        	active: false,
+	        	effect: "slide"
+	        },
+	        pagination: {
+	        	active: false,
+	        	effect: "slide"
+	        }
+    	});
+	}
+	// If not, just show the picture.
+	else {
+		$('.project-slideshow').css({
+			'display': 'inline-block'
+		});
+	}
+
+	// Skills
+	$('.project-skills').empty();
+	toAppend = '';
+	for (var i = 0; i < curProject.skills.length; i++) {
+		toAppend += curProject.skills[i] + ", ";
+	}
+	toAppend = toAppend.substring(0, toAppend.length-2);
+	$('.project-skills').append(toAppend);
+
+	// Description
+	$('.project-description').empty();
+	$('.project-description').append(curProject.description);
+}
+
+$.closeModal = function() {
+	$('body').removeClass('no-scroll')
+	modal.style.display = "none";
+	$('.project-title').empty();
+	$('.project-skills').empty();
+	$('.project-description').empty();
+}
+
 $(document).ready(function() {
-	// Check if a new cache is available on page load.
-	window.addEventListener('load', function(e) {
-
-	  window.applicationCache.addEventListener('updateready', function(e) {
-	    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-	      // Browser downloaded a new app cache.
-	      // Swap it in and reload the page to get the new hotness.
-	      window.applicationCache.swapCache();
-	      if (confirm('A new version of this site is available. Load it?')) {
-	        window.location.reload();
-	      }
-	    } else {
-	      // Manifest didn't changed. Nothing new to server.
-	    }
-	  }, false);
-
-	}, false);
-
-	var modal = document.getElementsByClassName("project-modal")[0];
-
-	$('.close').on('click', function(event) {
-		$('body').removeClass('no-scroll')
-		modal.style.display = "none";
-		$('.project-title').empty();
-		$('.project-skills').empty();
-		$('.project-description').empty();
-	});
-
-	$('.done').on('click', function(event) {
-		$('body').removeClass('no-scroll')
-		modal.style.display = "none";
-		$('.project-title').empty();
-		$('.project-skills').empty();
-		$('.project-description').empty();
-	});
+	modal = document.getElementsByClassName("project-modal")[0];
 
 	for (var i = 0; i < projects.length; i++) {
 		curProject = projects[i];
@@ -140,66 +188,17 @@ $(document).ready(function() {
 
 	$('.project-cell').click(function(e) {
 		e.preventDefault();
-		document.location.href = '#project';
-		modal.style.display = "inline-block";
-
-		// Disable scroll for the background
-		$('body').addClass('no-scroll')
 
 		// Get the project from the project index of the clicked cell.
-		projIndex = $(e.currentTarget).attr('project');
-		curProject = projects[projIndex];
-
-		// Title
-		$('.project-title').empty();
-		$('.project-title').append(curProject.title);
-
-
-		// Slideshow
-		$('.project-slideshow').remove();
-		$('<div></div>').addClass('project-slideshow').appendTo('.project-slideshow-placeholder');
-
-		toAppend = '';
-		for (var i = 0; i < curProject.images.length; i++) {
-			toAppend += '<img class="project-image" src="/img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?>';
-		}
-
-		$('.project-slideshow').append(toAppend);
-
-		// If there are multiple images, create a slideshow
-		if (curProject.images.length > 1) {
-			$('.project-slideshow').slidesjs({
-				width: $('.project-image').get(0).naturalWidth,
-				height: $('.project-image').get(0).naturalHeight,
-
-		        navigation: {
-		        	active: false,
-		        	effect: "slide"
-		        },
-		        pagination: {
-		        	active: false,
-		        	effect: "slide"
-		        }
-	    	});
-		}
-		// If not, just show the picture.
-		else {
-			$('.project-slideshow').css({
-				'display': 'inline-block'
-			});
-		}
-
-		// Skills
-		$('.project-skills').empty();
-		toAppend = '';
-		for (var i = 0; i < curProject.skills.length; i++) {
-			toAppend += curProject.skills[i] + ", ";
-		}
-		toAppend = toAppend.substring(0, toAppend.length-2);
-		$('.project-skills').append(toAppend);
-
-		// Description
-		$('.project-description').empty();
-		$('.project-description').append(curProject.description);
+		projectId = $(e.currentTarget).attr('project');
+		$.openModal(projectId);
 	});
+
+	$('.close').on('click', $.closeModal);
+	$('.done').on('click', $.closeModal);
+
+	var projectFromUrl = $.urlParam("project");
+	if (projectFromUrl != null) {
+		$.openModal(projectFromUrl);
+	}
 });
