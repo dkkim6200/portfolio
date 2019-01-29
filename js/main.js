@@ -87,7 +87,25 @@ var projects = [{
 		"description": 'Created a time-management application for iOS. It allows users to evaluate the time spent in terms of their efficiency, and provides a well-organized graphs to allow users to see how well they spent their time.<br><br>As a student, I wanted to improve the way I use my time, and I also wanted to review how I have done over a day, a week, or a month so that I can reflect and improve based upon them. Thus, I built myself an app to do just that; increase the efficiency of time usage and receive a report on how well I did.<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/dKSFUr22j6o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
 		"thumbnail": "lifetime_1.jpg",
 		"images": ["lifetime_1.jpg", "lifetime_2.jpg", "lifetime_3.jpg", "lifetime_4.jpg", "lifetime_5.jpg"]
-	}
+	},
+	{
+		"id": 10,
+		"title": "Wizard VR Chess",
+		"folder": "wizard_chess",
+		"skills": ["C#", "Unity", "IBM Watson Speech-to-text API"],
+		"description": '',
+		"thumbnail": "wizard_chess_1.jpg",
+		"images": ["wizard_chess_1.jpg", "wizard_chess_2.jpg", "wizard_chess_3.jpg"]
+	},
+	{
+		"id": 11,
+		"title": "Virtro Enterntainment",
+		"folder": "virtro",
+		"skills": ["Node.js", "Unity", "Slack API", "MySQL", "RESTful API Design"],
+		"description": '<a href="https://virtro.ca/">Virtro Enterntainment Homepage</a>',
+		"thumbnail": "virtro_1.jpg",
+		"images": ["virtro_1.jpg"]
+	},
 ]
 
 // Modal is a global variable.
