@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"replace",
+				"replaceWith\t.replaceWith()"
+			],
+			[
+				"relapse",
+				"relapseData"
+			],
+			[
+				"ready",
+				"ready\tdocument.ready - $(function(){})"
+			],
+			[
+				"read",
+				"ready\t$(document).ready"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"inner",
+				"inner-wrapper-2"
+			],
+			[
+				"img",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"event",
+				"eventKey"
+			],
+			[
+				"eve",
+				"eventKey"
+			],
+			[
+				"volunteer",
+				"volunteerEventsList"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"data",
+				"data"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"run"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/daekunkim"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/daekunkim/index.html",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/bin/adminer/adminer.php",
+		"/Users/DaekunKim/Downloads/AX88179_178A_Macintosh_Driver_Installer_v2.9.0_20171011/history.txt",
+		"/Users/DaekunKim/.config/karabiner/karabiner.json",
+		"/Users/DaekunKim/Downloads/Film_complet_en_francais_HD_720p_BRRip_TrueFrench-AC3/Mot de passe.txt",
+		"/Users/DaekunKim/Documents/Programming/shadcup",
+		"/Applications/MAMP/htdocs/daekunkim/css/font-awesome.min.css",
+		"/Applications/MAMP/htdocs/daekunkim/misc/extras.html",
+		"/Applications/MAMP/htdocs/daekunkim/images.html",
+		"/Applications/MAMP/htdocs/daekunkim/links.html",
+		"/Applications/MAMP/htdocs/daekunkim/css/styles.css",
+		"/Users/DaekunKim/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/DaekunKim/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Applications/MAMP/htdocs/daekunkim/untitled.html",
+		"/Users/DaekunKim/Documents/Google Drive/Programming/Backups/macbook_sql_backup_20170823.sql",
+		"/Users/DaekunKim/Documents/Google Drive/Programming/Backups/macbook_sql_backup_20170823",
+		"/Users/DaekunKim/Documents/Programming/Kindlers/kindlers_db_dump.sql",
+		"/Applications/MAMP/htdocs/daekunkim/index.php",
+		"/Users/DaekunKim/Downloads/palette.scss",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/Test Cases - Right before Return to Play",
+		"/Users/DaekunKim/Downloads/font-awesome.xml",
+		"/etc/hosts",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/User experience problem",
+		"/Applications/MAMP/htdocs/classes/database.class.php",
+		"/Applications/MAMP/htdocs/login.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Applications/MAMP/htdocs/classes/user.class.php",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/PR",
+		"/Applications/MAMP/htdocs/classes/event.class.php",
+		"/Applications/MAMP/htdocs/includes/global.inc.php",
+		"/Applications/MAMP/bin/phpMyAdmin/config.inc.php",
+		"/Users/DaekunKim/.path",
+		"/Users/DaekunKim/Downloads/athletes.csv",
+		"/Users/DaekunKim/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/DaekunKim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/Daekun Notes/Test Scenarios",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/Daekun Notes/SWOT Analysis",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/Daekun Notes/HeadCheck Possible Features",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/Daekun Notes/Interview Notes.txt",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/Daekun Notes/HeadCheck v2.0 Bugs",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/JSON",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/Test Scenarios",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/SWOT Analysis",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/Interview Notes.txt",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/HeadCheck v2.0 Bugs",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/HeadCheck Possible Features",
+		"/Users/DaekunKim/Documents/Google Drive/HeadCheck Health/Interview Notes",
+		"/Users/DaekunKim/Documents/Google Drive/App/QA/August 1, 2017 QA Testing Notes",
+		"/Users/DaekunKim/Documents/Google Drive/Low-income Youth Programming Education NPO/Low-income Youth Programming Education NPO Notws",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/index.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/shop_mainpage.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/shop_folium_root.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/shop_folium_stem.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/shop-item.css",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/shop_item.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/agency.css",
+		"/Users/DaekunKim/Documents/Programming/Gairden/contact_me.js",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/contact_me.php",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/contact_me.js",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/agency.js",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-2/index.html",
+		"/private/var/folders/mp/jc2_sqd51bv_cd3qbv2hfrfr0000gn/T/fz3temp-1/index.html",
+		"/Users/DaekunKim/Downloads/startbootstrap-agency-gh-pages/index.html",
+		"/Users/DaekunKim/Downloads/startbootstrap-agency-gh-pages/LICENSE",
+		"/Users/DaekunKim/Downloads/startbootstrap-agency-gh-pages/package.json",
+		"/Users/DaekunKim/Sites/httpd-vhosts.conf",
+		"/Users/DaekunKim/Documents/Programming/Unity Projects/NanoBalls/README.md",
+		"/Users/DaekunKim/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Templates.localized/Normal.dotm",
+		"/Users/DaekunKim/Downloads/F4FWJORIRXTXQG8.c",
+		"/Applications/ioquake3/baseq3/q3config.cfg",
+		"/Users/DaekunKim/Downloads/applewin-fs/answer.c",
+		"/Users/DaekunKim/Downloads/applewin-fs/readme.bat",
+		"/Users/DaekunKim/Downloads/dg-master/dev/src/shaders/compile_pixel_shader.bat",
+		"/Users/DaekunKim/Sites/index.php",
+		"/Users/DaekunKim/Documents/Programming/ReactorEngine/ReactorEngine/models/simple_town/Models/ambo_mesh.fbx",
+		"/Users/DaekunKim/Sites/cover.css",
+		"/usr/local/etc/apache2/2.2/httpd.conf",
+		"/Users/DaekunKim/Downloads/bootstrap-3.3.7/docs/examples/cover/index.html",
+		"/Users/DaekunKim/Sites/index.html",
+		"/Library/WebServer/Documents/index.html",
+		"/Users/DaekunKim/Downloads/index.html",
+		"/Users/DaekunKim/Sites/test.html",
+		"/Users/DaekunKim/Downloads/Sign in - Google Accounts_files/index.html",
+		"/Users/DaekunKim/Downloads/Facebook - Log In or Sign Up_files/Facebook - Log In or Sign Up.htm",
+		"/Users/DaekunKim/Downloads/Facebook - Log In or Sign Up.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/log.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/untitled.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/facebook.htm",
+		"/Users/DaekunKim/Downloads/update-1/login copy.php",
+		"/Users/DaekunKim/Downloads/Codearte-jfairy-b2010bc/gradlew.bat",
+		"/Users/DaekunKim/Downloads/Codearte-jfairy-b2010bc/gradle.properties",
+		"/Users/DaekunKim/Downloads/burpsuite_pro_v1.7.03_Cracked_loader/burpsuite_pro_v1.7.03.jar.burp",
+		"/Users/DaekunKim/Downloads/SQLite3DBSample/sampledb.sql",
+		"/Users/DaekunKim/Downloads/10.1007%2F978-1-4302-6095-0_14.bib",
+		"/Users/DaekunKim/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/60C372C5-5250-4806-AAE7-285AF6083310/SQLite3DBSample/sampledb.sql",
+		"/Users/DaekunKim/Documents/Programming Related/Unity Projects/Spinning Coin/spinning_coin/Assets/Scripts/PlayerController.cs",
+		"/Users/DaekunKim/SpinningCoin/README.md",
+		"/Users/DaekunKim/spinningcoin/README.md",
+		"/Users/DaekunKim/Documents/Programming Related/Spinning Coin/Assets/Models/Fence.fbx",
+		"/System/Library/Filters/Reduce File Size.qfilter",
+		"/Users/DaekunKim/Documents/Programming Related/ec2_key.pem",
+		"/Users/DaekunKim/Downloads/Windows 10 빌드 10240 한글판 (Professional Enterprise Home x64_x86)/KMS_정품인증(10240_Pro_x64_x86).cmd",
+		"/Users/DaekunKim/Sites/login.php",
+		"/Users/DaekunKim/Desktop/user.class.php",
+		"/Users/DaekunKim/Desktop/event.php",
+		"/Volumes/UNTITLED/wordpress (1).sql",
+		"/Users/DaekunKim/Downloads/php-5.5.2/ext/soap/php_encoding.c",
+		"/Users/DaekunKim/Downloads/php-5.5.2/Zend/zend_exceptions.c",
+		"/Users/DaekunKim/Downloads/php-5.5.2/ext/phar/phar_object.c",
+		"/Users/DaekunKim/Downloads/frozen-2/frozen.2013.french.bdrip.x264-rough.ass",
+		"/Users/DaekunKim/Movies/Frozen.2013.FRENCH.BDRip.x264-ROUGH/frozen.2013.french.bdrip.x264-rough.ass",
+		"/Users/DaekunKim/Movies/Frozen.2013.FRENCH.BDRip.x264-ROUGH/frozen.2013.french.bdrip.x264-rough.srt",
+		"/Users/DaekunKim/Downloads/hydra-8.2/dpl4hydra_passwords.lst",
+		"/Users/DaekunKim/Documents/Xcode Projects/opencvtest/BlurImage.cpp",
+		"/Users/DaekunKim/Documents/Xcode Projects/opencvtest/CMakeLists.txt",
+		"/Users/DaekunKim/dumps/kindlers_20160807.sql",
+		"/Users/DaekunKim/Sites/create_event.php",
+		"/Users/DaekunKim/Sites/classes/user.class.php",
+		"/Users/DaekunKim/Sites/volunteer_events.php",
+		"/Users/DaekunKim/Sites/classes/database.class.php",
+		"/Users/DaekunKim/Sites/classes/event.class.php",
+		"/Users/DaekunKim/Sites/event.php",
+		"/Users/DaekunKim/Sites/assets/bootstrap-datepicker/js/bootstrap-datepicker.js",
+		"/Users/DaekunKim/Downloads/datepicker/less/datepicker.less",
+		"/Users/DaekunKim/Sites/logout.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "daekunkim.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
