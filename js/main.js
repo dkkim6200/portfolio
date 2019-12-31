@@ -140,7 +140,7 @@ $.openModal = function(projectId) {
 
 	toAppend = '';
 	for (var i = 0; i < curProject.images.length; i++) {
-		toAppend += '<img class="project-image" src="/img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?>';
+		toAppend += '<img class="project-image" src="img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?>';
 	}
 
 	$('.project-slideshow').append(toAppend);
@@ -179,7 +179,7 @@ $.openModal = function(projectId) {
 
 	// Description
 	$('.project-description').empty();
-	$('.project-description').load('/html/' + curProject.description);
+	$('.project-description').load('html/' + curProject.description);
 }
 
 $.closeModal = function() {
@@ -197,7 +197,7 @@ $(document).ready(function() {
 		curProject = projects[i];
 
 		toAppend = '<div class="project-cell" project="' + i + '">';
-		toAppend += '<img src="/img/projects/' + curProject["folder"] + '/' + curProject['thumbnail'] + '" class="thumbnail">';
+		toAppend += '<img src="img/projects/' + curProject["folder"] + '/' + curProject['thumbnail'] + '" class="thumbnail">';
 		toAppend += '<figcaption>' + curProject["title"] + '</figcaption>';
 		toAppend += '</div>'
 
