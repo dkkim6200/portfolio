@@ -5,8 +5,8 @@ var projects = [
 		"folder": "wizard_chess",
 		"skills": ["C#", "Unity", "IBM Watson Speech-to-text API"],
 		"description": 'wizard_chess.html',
-		"thumbnail": "wizard_chess_1.jpg",
-		"images": ["wizard_chess_1.jpg", "wizard_chess_2.jpg", "wizard_chess_3.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 3
 	},
 	{
 		"id": 2,
@@ -14,8 +14,17 @@ var projects = [
 		"folder": "reactor_engine",
 		"skills": ["C++", "OpenGL", "Blender"],
 		"description": 'reactor_engine.html',
-		"thumbnail": "reactor_engine_1.jpg",
-		"images": ["reactor_engine_1.jpg", "reactor_engine_2.jpg", "reactor_engine_3.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 3
+	},
+	{
+		"id": 11,
+		"title": "Lumos",
+		"folder": "lumos",
+		"skills": ["C#", "Unity", "Microsoft Azure NLP SDK"],
+		"description": 'lumos.html',
+		"thumbnail": "2.jpg",
+		"numImages": 4
 	},
 	{
 		"id": 6,
@@ -23,8 +32,8 @@ var projects = [
 		"folder": "vector_world",
 		"skills": ["Java", "C++"],
 		"description": 'vector_world.html',
-		"thumbnail": "vector_world_1.jpg",
-		"images": ["vector_world_1.jpg", "vector_world_2.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 2
 	},
 	{
 		"id": 0,
@@ -32,8 +41,8 @@ var projects = [
 		"folder": "kindlers",
 		"skills": ["PHP", "Bootstrap", "MySQL", "HTML", "CSS", "JS", "jQuery", "AJAX"],
 		"description": 'kindlers.html',
-		"thumbnail": "kindlers_1.jpg",
-		"images": ["kindlers_1.jpg", "kindlers_2.jpg", "kindlers_3.jpg", "kindlers_4.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 4
 	},
 	{
 		"id": 1,
@@ -41,8 +50,8 @@ var projects = [
 		"folder": "nano_balls",
 		"skills": ["Unity", "C#"],
 		"description": 'nano_balls.html',
-		"thumbnail": "nano_balls_1.jpg",
-		"images": ["nano_balls_1.jpg", "nano_balls_2.jpg", "nano_balls_3.jpg", "nano_balls_4.jpg", "nano_balls_5.jpg", "nano_balls_6.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 6
 	},
 	{
 		"id": 3,
@@ -50,8 +59,8 @@ var projects = [
 		"folder": "spinning_coin",
 		"skills": ["Unity", "C#", "Blender"],
 		"description": 'spinning_coin.html',
-		"thumbnail": "spinning_coin_1.jpg",
-		"images": ["spinning_coin_1.jpg", "spinning_coin_2.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 2
 	},
 	{
 		"id": 9,
@@ -59,8 +68,8 @@ var projects = [
 		"folder": "lifetime",
 		"skills": ["Objective-C", "Swift 3", "SQLite"],
 		"description": 'lifetime.html',
-		"thumbnail": "lifetime_1.jpg",
-		"images": ["lifetime_1.jpg", "lifetime_2.jpg", "lifetime_3.jpg", "lifetime_4.jpg", "lifetime_5.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 5
 	},
 	{
 		"id": 4,
@@ -68,8 +77,8 @@ var projects = [
 		"folder": "sympo",
 		"skills": ["Objective-C", "Swift 2", "Apache Tomcat", "Java Servlet", "MySQL"],
 		"description": "sympo.html",
-		"thumbnail": "sympo_1.jpg",
-		"images": ["sympo_1.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 1
 	},
 	{
 		"id": 8,
@@ -77,8 +86,8 @@ var projects = [
 		"folder": "galaga",
 		"skills": ["C++", "Objective-C", "Apache Tomcat", "Java Servlet", "MySQL", "Blender", "Python"],
 		"description": 'galaga.html',
-		"thumbnail": "galaga_1.jpg",
-		"images": ["galaga_1.jpg", "galaga_2.jpg"]
+		"thumbnail": "1.jpg",
+		"numImages": 2
 	},
 ]
 
@@ -124,10 +133,10 @@ $.openModal = function (projectId) {
 	$('<div></div>').addClass('project-slideshow').appendTo('.project-slideshow-placeholder');
 
 	// If there are multiple images, create a slideshow
-	if (curProject.images.length > 1) {
+	if (curProject.numImages > 1) {
 		toAppend = '';
-		for (var i = 0; i < curProject.images.length; i++) {
-			toAppend += '<div class="slideshow-cell"><img class="slideshow-cell-image" data-flickity-lazyload="img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?></div>';
+		for (var i = 1; i <= curProject.numImages; i++) {
+			toAppend += '<div class="slideshow-cell"><img class="slideshow-cell-image" data-flickity-lazyload="img/projects/' + curProject.folder + '/' + i + '.jpg"?></div>';
 		}
 
 		$('.project-slideshow').append(toAppend);
@@ -143,8 +152,8 @@ $.openModal = function (projectId) {
 	// If not, just show the picture.
 	else {
 		toAppend = '';
-		for (var i = 0; i < curProject.images.length; i++) {
-			toAppend += '<img class="slideshow-cell-image" src="img/projects/' + curProject.folder + '/' + curProject.images[i] + '"?>';
+		for (var i = 1; i <= curProject.numImages; i++) {
+			toAppend += '<img class="slideshow-cell-image" src="img/projects/' + curProject.folder + '/' + i + '.jpg"?>';
 		}
 
 		$('.project-slideshow').append(toAppend);
