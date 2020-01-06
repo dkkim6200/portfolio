@@ -1,0 +1,13 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hAlUrqFKJdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>
+  In my SE101 class, Victor Yun, Athena Liu, Laura Florea and I have developed a self-driving car that plays Pokemon Go by itself and collects items in PokeStops around the campus.
+</p>
+
+<p>
+  My main contribution was in the autonomous driving of the car. I decided that the car should be controlled by a central AWS server as that would allow the user to check the its location and front camera view and manually control it when needed. The car used the hotspot connection of the phone that is playing the game to connect to the server. A problem arose when I found out that the phone's cellular connection does not allow any inbound connection, as its public IP address would change without notice, and there was no obvious way of performing a port-forward in order for the phone to serve as its own server. Thus, Socket.io was used to create a socket connection between the car and the server, as that provided a way to access Raspberry Pi without knowing its IP address. Moreover, it would eliminate the need to constantly poll data to and from the car, which reduced the load on the usage of the phone's connection.
+</p>
+
+<p>
+  The campus was mapped into nodes with straight paths in between. The car would then use the phone's magnetometer and GPS information to reach from one node to the other. Another problem here was that we needed some sort of active feedback control to stabilize the car's trajectory when unexpected terrain moves it off course. I initially wanted to use the camera to detect obstacles and terrain features to achieve this, but we ran out of time at the end and did not have enough knowledge to implement it. Thus, when it went off course, the car was made to travel to the slight opposite of the anomaly in the car's path.
+</p>

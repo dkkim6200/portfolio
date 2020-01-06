@@ -27,6 +27,15 @@ var projects = [
 		"numImages": 4
 	},
 	{
+		"id": 12,
+		"title": "Self-driving Pokemon Go Player",
+		"folder": "pogo",
+		"skills": ["Node.js", "Python", "Socket.io"],
+		"description": 'pogo.html',
+		"thumbnail": "1.jpg",
+		"numImages": 2
+	},
+	{
 		"id": 6,
 		"title": "Vector World",
 		"folder": "vector_world",
@@ -34,6 +43,15 @@ var projects = [
 		"description": 'vector_world.html',
 		"thumbnail": "1.jpg",
 		"numImages": 2
+	},
+	{
+		"id": 11,
+		"title": "Rear Parking Distance Sensor",
+		"folder": "meme_club",
+		"skills": ["Processing", "Arduino"],
+		"description": 'meme_club.html',
+		"thumbnail": "1.jpg",
+		"numImages": 4
 	},
 	{
 		"id": 0,
