@@ -110,9 +110,9 @@ var projects = [
 	{
 		"id": 14,
 		"title": '"The Office" Script Generator',
-		"folder": "galaga",
-		"skills": ["C++", "Objective-C", "Apache Tomcat", "Java Servlet", "MySQL", "Blender", "Python"],
-		"description": 'galaga.html',
+		"folder": "office_script_generator",
+		"skills": ["Python", "Tensorflow", "BeautifulSoup"],
+		"description": 'office_script_generator.html',
 		"thumbnail": "1.jpg",
 		"numImages": 2
 	},
