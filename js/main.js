@@ -107,6 +107,15 @@ var projects = [
 		"thumbnail": "1.jpg",
 		"numImages": 2
 	},
+	{
+		"id": 14,
+		"title": '"The Office" Script Generator',
+		"folder": "galaga",
+		"skills": ["C++", "Objective-C", "Apache Tomcat", "Java Servlet", "MySQL", "Blender", "Python"],
+		"description": 'galaga.html',
+		"thumbnail": "1.jpg",
+		"numImages": 2
+	},
 ]
 
 // Modal is a global variable.
