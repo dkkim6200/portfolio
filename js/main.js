@@ -45,6 +45,15 @@ var projects = [
 		"numImages": 2
 	},
 	{
+		"id": 14,
+		"title": '"The Office" Script Generator',
+		"folder": "office_script_generator",
+		"skills": ["Python", "Tensorflow", "BeautifulSoup"],
+		"description": 'office_script_generator.html',
+		"thumbnail": "1.jpg",
+		"numImages": 2
+	},
+	{
 		"id": 13,
 		"title": "Rear Parking Distance Sensor",
 		"folder": "meme_club",
@@ -104,15 +113,6 @@ var projects = [
 		"folder": "galaga",
 		"skills": ["C++", "Objective-C", "Apache Tomcat", "Java Servlet", "MySQL", "Blender", "Python"],
 		"description": 'galaga.html',
-		"thumbnail": "1.jpg",
-		"numImages": 2
-	},
-	{
-		"id": 14,
-		"title": '"The Office" Script Generator',
-		"folder": "office_script_generator",
-		"skills": ["Python", "Tensorflow", "BeautifulSoup"],
-		"description": 'office_script_generator.html',
 		"thumbnail": "1.jpg",
 		"numImages": 2
 	},
