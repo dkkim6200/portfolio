@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
 @import url('https://fonts.googleapis.com/css?family=BenchNine');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:600&display=swap');
 
 
 * {
@@ -83,7 +86,7 @@ ul {
 
 .bio {
 	font-size: 20px;
-	font-weight: thin 100;
+	font-weight: 100;
 	color: #ffffff;
 	line-height: 115%;
 }
@@ -135,7 +138,7 @@ ul {
 .project-cell>figcaption {
 	text-align: center;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 400;
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
@@ -180,6 +183,7 @@ ul {
 
 .project-title {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .project-skills {
