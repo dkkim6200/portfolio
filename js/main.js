@@ -1,5 +1,14 @@
 var projects = [
 	{
+		"id": 15,
+		"title": "HoloKinect",
+		"folder": "holokinect",
+		"skills": ["C#", "Unity", "WebRTC", "HLSL Shader"],
+		"description": 'holokinect.html',
+		"thumbnail": "1.jpg",
+		"numImages": 2
+	},
+	{
 		"id": 10,
 		"title": "Wizard VR Chess",
 		"folder": "wizard_chess",
