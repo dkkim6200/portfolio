@@ -1,7 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&display=swap');
 @font-face {
 	font-family: 'HelveticaNeue';
-	src: url('../fonts/HelveticaNeue-Light.ttf');
+	src: url('../fonts/HelveticaNeue.ttc');
 }
 
 
@@ -39,7 +40,7 @@ body {
 }
 
 .description {
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 16px;
 	line-height: 25px;
 	color: rgb(51, 51, 51);
